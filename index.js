@@ -57,7 +57,9 @@ button.addEventListener('click', async () => {
             
             // converting error into message
             
-            joke.innerHTML = 'Something wrent wrong';
+            joke.innerHTML = 'Something wrent wrong <i class="ri-error-warning-line"></i>';
+
+            console.log(error.message);
             
         }
     };
